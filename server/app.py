@@ -15,7 +15,7 @@ CORS(app)
 
 df = pd.read_csv("exports/final_movie.csv")
 df = df.iloc[:, 1:]
-api_key = "05790ecde0e9ad64deebf2633af2ae6e"
+api_key = ""
 
 
 with open('exports/movie_names.pkl', 'rb') as file:
