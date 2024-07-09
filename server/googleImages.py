@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 def search_images(query):
     base_url = "https://www.googleapis.com/customsearch/v1"
     params = {
-        'key': "AIzaSyB5iglHI4hIqvYmc9OtlwUM0osJVDMUSUU",
-        'cx': "c6148d69929eb4562",
+        'key': "",
+        'cx': "",
         'searchType': 'image',
         'q': query + " actor photo"
     }
