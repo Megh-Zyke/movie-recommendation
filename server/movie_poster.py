@@ -10,7 +10,7 @@ with open('exports/movie_names.pkl', 'rb') as file:
 
 movie_poster_links = []
 
-def get_movie_poster(movie_title, api_key="05790ecde0e9ad64deebf2633af2ae6e"):
+def get_movie_poster(movie_title, api_key=""):
     session = requests.Session()
     
     retries = Retry(
